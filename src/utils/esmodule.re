@@ -1,0 +1,1 @@
+[@bs.val] external import: string => unit = "";
