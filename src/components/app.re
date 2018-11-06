@@ -153,6 +153,7 @@ let make = _children => {
       | "Delete" => buttonActionCreator("DEL", self.send)
       | "Backspace" => buttonActionCreator("CLS", self.send)
       | "Enter" => buttonActionCreator("=", self.send)
+      | "x" => buttonActionCreator("*", self.send)
       | name => buttonActionCreator(name, self.send)
       };
     addEventListener(win, "keyup", keyUpHandle);

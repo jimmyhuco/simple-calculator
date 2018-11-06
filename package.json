@@ -5,6 +5,7 @@
     "name": "Jimmy Hu",
     "email": "jimmyhu.co@gmail.com"
   },
+  "homepage": "https://jimmyhuco.github.io/simple-calculator",
   "private": true,
   "dependencies": {
     "big.js": "^5.2.2",
