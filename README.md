@@ -1,4 +1,4 @@
-# It's simple calculator writen in ReasonML
+# It's another calculator written in Reason using ReasonReact
 
 ## Up and Running
 
