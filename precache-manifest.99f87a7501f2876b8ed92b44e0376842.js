@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/simple-calculator/static/css/1.aa6da3de.chunk.css"
   },
   {
-    "revision": "75d7f23ad27c643ea10a0ff37d96a282",
+    "revision": "b31abf570ab087303adb45f44295cbd2",
     "url": "/simple-calculator/index.html"
   }
 ];
