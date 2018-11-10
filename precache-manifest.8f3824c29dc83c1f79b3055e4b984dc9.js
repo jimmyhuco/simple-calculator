@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/simple-calculator/static/css/4.ff72e65b.chunk.css"
   },
   {
-    "revision": "74907f2f21714902d308",
-    "url": "/simple-calculator/static/js/main.74907f2f.chunk.js"
+    "revision": "657d0e07e1a7cdfed428",
+    "url": "/simple-calculator/static/js/main.657d0e07.chunk.js"
   },
   {
     "revision": "f05e9530dda6dc36addd",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/simple-calculator/static/css/1.aa6da3de.chunk.css"
   },
   {
-    "revision": "b31abf570ab087303adb45f44295cbd2",
+    "revision": "30b6d5b889072ccf789b99322de9f339",
     "url": "/simple-calculator/index.html"
   }
 ];
