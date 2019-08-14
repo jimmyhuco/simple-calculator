@@ -6,7 +6,7 @@ open String;
 import("./app.css");
 
 type operator =
-  | Delelte
+  | Delete
   | Clear
   | Sign
   | Percent
@@ -41,7 +41,7 @@ let buttonActionCreator = (name, send) =>
   | "8"
   | "9"
   | "0" => send(Number(name))
-  | "DEL" => send(Op(Delelte))
+  | "DEL" => send(Op(Delete))
   | "CLS" => send(Op(Clear))
   | "+/-" => send(Op(Sign))
   | "%" => send(Op(Percent))
@@ -75,11 +75,11 @@ let computeState = (action, {fst, op, snd} as state) =>
   | (Number(x), _, Some(_), None) => {...state, snd: Some(x)}
   | (Number(x), _, Some(_), Some(y)) => {...state, snd: Some(y ++ x)}
 
-  | (Op(Delelte), x, None, None) when x != "0" => {
+  | (Op(Delete), x, None, None) when x != "0" => {
       ...state,
       fst: length(x) > 1 ? sub(x, 0, length(x) - 1) : "0",
     }
-  | (Op(Delelte), _, Some(_), Some(y)) when y != "0" => {
+  | (Op(Delete), _, Some(_), Some(y)) when y != "0" => {
       ...state,
       snd: length(y) > 1 ? Some(sub(y, 0, length(y) - 1)) : None,
     }
